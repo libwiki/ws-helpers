@@ -1,5 +1,13 @@
 # ws-helpers
 
+## 安装
+
+```
+npm install --save ws-helpers
+```
+
+## 方法
+
 ```
 /**
  * md5加密
@@ -127,7 +135,7 @@ time(val=null,type=false)
 /**
  * 获取日期信息的数组
  * @param  {Number|String} val 默认为当前时间
- * @param  {mixed} isGetWeek 如果希望获取当前月一号的星期数可传 [ 0 | undefined | false ]
+ * @param  {mixed} isGetWeek 如果希望获取当前月一号的星期数可传 !true
  * @return {Array}     
  */
 date(val=null,isGetWeek=null)
@@ -135,7 +143,7 @@ date(val=null,isGetWeek=null)
 
 ```
 /**
- * https://github.com/koajs/compose/blob/master/index.js
+ * 来源：https://github.com/koajs/compose/blob/master/index.js
  * @param {Array} middleware
  * @return {Function}
  */

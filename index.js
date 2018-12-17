@@ -257,7 +257,7 @@ module.exports={
     /**
      * 获取日期信息的数组
      * @param  {Number|String} val 默认为当前时间
-     * @param  {mixed} isGetWeek 如果希望获取当前月一号的星期数可传 [ 0 | undefined | false ]
+     * @param  {mixed} isGetWeek 如果希望获取当前月一号的星期数可传 !true
      * @return {Array}     
      */
     date(val=null,isGetWeek=null){
