@@ -1,0 +1,22 @@
+{
+  "name": "ws-helpers",
+  "version": "1.0.0",
+  "description": "Node helper",
+  "main": "index.js",
+  "homepage": "https://github.com/wschat/ws-helpers/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wschat/ws-helpers/"
+  },
+  "bugs": {
+    "url": "https://github.com/wschat/ws-helpers/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "helper"
+  ],
+  "author": "wschat",
+  "license": "MIT"
+}
